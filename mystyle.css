@@ -1,0 +1,36 @@
+@font-face {
+  font-family: RCLight;
+  src: url('RobotoCondensed/RobotoCondensed-Light.ttf')
+}
+
+@font-face {
+  font-family: RCRegular;
+  src: url('RobotoCondensed/RobotoCondensed-Regular.ttf')
+}
+
+h1 {
+  color: #db0000; /*#41f53b*/
+  font-family: RCLight;
+  font-size: 60px;
+}
+
+body {
+  background-color: #1f1f1f;
+  /*background-color: #a82d25;*/
+  text-align: center;
+}
+
+texts {
+  color: #f00000;
+  font-family: RCLight;
+  font-size: 30px;
+}
+
+.button {
+  background-color: #ff0c0c;/*#00db80*/
+  color: #1f1f1f;
+  padding: 12px 22px;
+  font-family: RCRegular;
+  font-size: 25px;
+  border-radius: 4px;
+}
